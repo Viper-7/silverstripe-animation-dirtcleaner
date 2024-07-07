@@ -1,0 +1,9 @@
+{
+    "name": "viper-7/pixibackground",
+    "description": "An animated background wrapper for SilverStripe CMS",
+    "extra": {
+        "expose": [
+            "dist/js"
+        ]
+    }
+}

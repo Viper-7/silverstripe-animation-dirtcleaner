@@ -1,0 +1,6 @@
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - Viper7\Extension\PixiBackgroundSiteConfig
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - Viper7\Extension\PixiPageExtension
