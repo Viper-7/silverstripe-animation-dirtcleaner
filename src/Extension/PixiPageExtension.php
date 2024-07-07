@@ -25,8 +25,8 @@ class PixiPageExtension extends Extension {
         }
         
         if(SiteConfig::current_site_config()->hasField('DisableBackground') && !SiteConfig::current_site_config()->DisableBackground) {
-            Requirements::javascript('viper-7/pixibackground:dist/js/pixi.min.js');
-            Requirements::javascriptTemplate('viper-7/pixibackground:dist/js/pixi_background.js', $vars);
+            Requirements::javascript('viper-7/silverstripe-animation-dirtcleaner:dist/js/pixi.min.js');
+            Requirements::javascriptTemplate('viper-7/silverstripe-animation-dirtcleaner:dist/js/pixi_background.js', $vars);
         }
     }
 }
