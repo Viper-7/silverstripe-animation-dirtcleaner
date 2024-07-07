@@ -1,9 +1,25 @@
 {
-    "name": "viper-7/pixibackground",
-    "description": "An animated background wrapper for SilverStripe CMS",
-    "extra": {
-        "expose": [
-            "dist/js"
-        ]
+  "name": "viper-7/silverstripe-animation-dirtcleaner",
+  "description": "An animated background developed for Hydrocare Solutions",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/Viper-7/silverstripe-animation-dirtcleaner",
+  "keywords": ["silverstripe", "pixijs", "animation", "background"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dale Horton","email": "viper7@viper-7.com"
     }
+  ],
+  "support": {
+    "issues": "https://github.com/Viper-7/PixiBackground/issues"
+  },
+  "require": {
+    "silverstripe/cms": "^5",
+    "silverstripe/framework": "^5"
+  },
+  "extra": {
+    "expose": [
+        "dist/js"
+    ]
+  }
 }
