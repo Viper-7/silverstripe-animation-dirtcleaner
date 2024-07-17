@@ -3,6 +3,7 @@ namespace Viper7\Extension;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\Forms\CheckboxField;
+use SilverStripe\Forms\FieldList;
 use TractorCow\SliderField\SliderField;
 use SilverStripe\Assets\Image;
 use SilverStripe\AssetAdmin\Forms\UploadField;
